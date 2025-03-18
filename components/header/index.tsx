@@ -16,7 +16,7 @@ const links = [
 const Header = () => {
   const pathname = usePathname()
   return (
-    <header className='fixed w-full left-0 top-0 z-50 bg-[#0D7377]'>
+    <header className='fixed w-full left-0 top-0 z-50 bg-[#0D7377] h-[74px]'>
       <div className='container mx-auto flex items-center justify-between p-5 lg:py-5 lg:px-5'>
         <section>
           <Link
